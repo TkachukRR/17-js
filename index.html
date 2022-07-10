@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+
+      
+    </header>
+    <main class="main">
+      
+      <div class="fixed">
+        <label for="number_of_articles" class=""> 
+          Number of articles
+          <input 
+            class="input_number"
+            type="number" 
+            name="Number of articles" 
+            placeholder="15" 
+            value="15" 
+            min="5" 
+            max="45"
+          >
+        </label>
+
+        <div class="sort">        
+          <button data-sort="title-down">Sort by title: a >> z</button>
+          <button data-sort="title-up">Sort by title: z >> a</button>
+          <button data-sort="date-down">Sort by date: new >> old</button>
+          <button data-sort="date-up">Sort by date: old >> new</button>
+        </div>
+
+        <div class="counter"></div>
+      </div>
+      <div class="container">
+        
+
+
+
+      </div>
+    </main>
+
+    <script defer src="js/script.js" type="module"></script>
+  </body>
+</html>
